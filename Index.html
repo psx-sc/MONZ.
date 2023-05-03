@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rizz Scriptz</title>
+    <link rel="icon" type="image/png" href="rizz.jpg">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="title">Rizz Scriptz</h1>
+      <div class="button-group">
+        <button id="btn1" onclick="window.open('https://discord.gg/DrKBvnwEKY', '_blank')">Join our Discord server</button>
+        <button id="btn1" onclick="window.open('https://www.youtube.com/@rizzscriptz', '_blank')">Visit our YouTube channel</button>
+      </div>
+      <div class="scripts-container">
+        <div class="scripts-group">
+          <div class="script mail-script">
+            <h2 class="section-title">Mail Script</h2>
+            <div class="lua-script">
+                <pre id="mail"></pre>
+            </div>
+            <button class="btn" onclick="copyToClipboard(`${Mail}`)">Copy to Clipboard</button>
+          </div>
+          <div class="script bank-script">
+            <h2 class="section-title">Bank Script</h2>
+            <div class="lua-script">
+                <pre id="bank"></pre>
+            </div>
+            <button class="btn" onclick="copyToClipboard(`${Bank}`)">Copy to Clipboard</button>
+          </div>
+          <div class="script visual-script">
+            <h2 class="section-title">Visual Script</h2>
+            <div class="lua-script">
+              <pre id="visual"></pre>
+            </div>
+            <button class="btn" onclick="copyToClipboard(`${Visual}`)">Copy to Clipboard</button>
+            <button class="btn2" onclick="window.open('https://discord.gg/DrKBvnwEKY', '_blank')">Get Key</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
